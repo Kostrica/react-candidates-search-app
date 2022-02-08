@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-candidates-search-app/static/css/main.ed5e22ff.css",
+    "main.css": "/react-candidates-search-app/static/css/main.d8b9ac6f.css",
     "main.js": "/react-candidates-search-app/static/js/main.766f691c.js",
     "static/media/Frame 893.png": "/react-candidates-search-app/static/media/Frame 893.fed816a4022e3c27816b.png",
     "static/media/instagram-svgrepo-com.svg": "/react-candidates-search-app/static/media/instagram-svgrepo-com.31ac48481c14ed1a71c166c5df18821b.svg",
@@ -28,11 +28,11 @@
     "static/media/germany.svg": "/react-candidates-search-app/static/media/germany.35808f9732015c73852f72383526991f.svg",
     "static/media/Flag_of_Spain_(Civil).svg": "/react-candidates-search-app/static/media/Flag_of_Spain_(Civil).fa01e6861fe1d0ceb5bb00b4999b7c17.svg",
     "static/media/poland.svg": "/react-candidates-search-app/static/media/poland.3b4ade1bb6f6960152e8e1e327fb1372.svg",
-    "main.ed5e22ff.css.map": "/react-candidates-search-app/static/css/main.ed5e22ff.css.map",
+    "main.d8b9ac6f.css.map": "/react-candidates-search-app/static/css/main.d8b9ac6f.css.map",
     "main.766f691c.js.map": "/react-candidates-search-app/static/js/main.766f691c.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed5e22ff.css",
+    "static/css/main.d8b9ac6f.css",
     "static/js/main.766f691c.js"
   ]
 }
