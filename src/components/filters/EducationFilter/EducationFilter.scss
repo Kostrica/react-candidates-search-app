@@ -1,0 +1,51 @@
+.educationFilterContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 25px 10px;
+  margin-bottom: 15px;
+  background-color: #FDFDFF;
+
+  .title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #202020;
+  }
+
+  .line {
+    width: 323px;
+    border: 0.5px solid #EAEAEA;
+    margin: 12px 0;
+  }
+
+  .checkboxWraper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+    [type="checkbox"]+span:not(.lever) {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+      color: #202020;
+    }
+
+    [type="checkbox"].filled-in:not(:checked)+span:not(.lever):after {
+      border: 1px solid #FBC53C;
+    }
+
+    [type="checkbox"].filled-in:checked+span:not(.lever):after {
+      border: 1px solid #FBC53C;
+      background-color: #FBC53C;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+}

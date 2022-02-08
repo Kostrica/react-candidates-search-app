@@ -1,0 +1,51 @@
+.photoFilterContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  margin-bottom: 15px;
+  background-color: #FDFDFF;
+
+  .text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #202020;
+    margin-left: 12px;
+  }
+
+  .switch {
+    label {
+      .lever {
+        width: 28px;
+        height: 16px;
+        border-radius: 12px;
+        margin: 0;
+      }
+
+      input[type=checkbox]:checked+.lever:before,
+      input[type=checkbox]:checked+.lever:after {
+        left: 14px;
+      }
+
+      .lever:before,
+      .lever:after {
+        content: "";
+        width: 14px;
+        height: 14px;
+        top: 0.5px;
+      }
+
+      input[type=checkbox]:checked+.lever:after {
+        background-color: #000046;
+      }
+    
+      input[type=checkbox]:checked+.lever {
+        background-color: #E6E6FF;
+      }
+    }
+  }
+}

@@ -1,0 +1,149 @@
+.searh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 73px 0 52px;
+
+  .searhIcon {
+    position: relative;
+    top: -1.2px;
+    padding: 17px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 8px 0 0 8px;
+    box-sizing: content-box;
+  }
+
+  .position,
+  .positionMini {
+    height: 48px;
+    width: 362px;
+    padding: 0;
+    border: none;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 0 8px 8px 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+
+  .positionMini {
+    display: none;
+    font-size: 16px;
+  }
+
+  .position::placeholder {
+    color: #FFFFFF;
+  }
+
+  .locationIcon {
+    position: relative;
+    top: -1.2px;
+    padding: 11.5px 16.5px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 8px 0 0 8px;
+    box-sizing: content-box;
+  }
+
+  .cityContainer {
+    margin: 0 8px;
+  }
+
+  .city {
+    height: 48px;
+    width: 157px;
+    padding: 0;
+    border: none;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 0 8px 8px 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+
+  .city::placeholder {
+    color: #FFFFFF;
+  }
+
+  .button {
+    height: 48px;
+    width: 199px;
+    border: none;
+    background-color: #FFF9E4;
+    border-radius: 8px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #303030;
+  }
+
+  .button:hover{
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .searh {
+    padding: 33px 0 20px;
+
+    .cityContainer {
+      display: block;
+      margin: 0;
+    }
+
+    .position,
+    .positionMini,
+    .city {
+      width: 362px;
+    }
+
+    .city {
+      font-weight: normal;
+      font-size: 16px;
+    }
+
+    .position {
+      display: none;
+    }
+
+    .positionMini {
+      display: inline-block;
+    }
+
+    .button {
+      width: 410px;
+    }
+
+    .locationIcon,
+    .searhIcon {
+      top: -2.2px;
+    }
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .searh {
+    .form {
+      width: 100%;
+      padding: 0 20px;
+    }
+
+    .position,
+    .positionMini,
+    .city {
+      width: calc(100% - 48px);
+    }
+
+    .button {
+      width: 100%;
+    }
+  }
+}

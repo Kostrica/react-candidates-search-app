@@ -1,0 +1,94 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  .language {
+    display: flex;
+    flex-direction: row;
+
+    .select {
+      display: block;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 17px;
+      background: none;
+      color: #EAEAEA;
+      border: none;
+      margin-left: 5px;
+      padding: 0;
+      height: max-content;
+      width: max-content;
+
+      .option {
+        color: black;
+      }
+    }
+
+    .select:hover {
+      cursor: pointer;
+    }
+  }
+
+  .entranceButton {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    height: max-content;
+    background: none;
+    color: #FFFFFF;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    padding: 0;
+    margin-left: 25px;
+  }
+
+  .applicantButton {
+    display: none;
+    flex-direction: row;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 24px;
+    height: max-content;
+    background: none;
+    color: #FFFFFF;
+    border: none;
+    padding: 0;
+    margin-left: 25px;
+
+    .applicantButtonIcon {
+      display: inline-block;
+      font-size: 28px;
+      margin-left: 10px;
+      transform: rotate(90deg);
+    }
+  }
+
+  .entranceButton:hover,
+  .applicantButton:hover {
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    width: 100%;
+    justify-content: space-between;
+
+    .entranceButton {
+      display: none;
+    }
+
+    .applicantButton {
+      display: flex;
+    }
+  }
+}

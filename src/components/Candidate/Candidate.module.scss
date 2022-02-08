@@ -1,0 +1,243 @@
+.candidate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #EAEAEA;
+  box-sizing: border-box;
+
+  .infoBox {
+    display: flex;
+    flex-direction: row;
+
+    .photo {
+      width: 164px;
+      height: 164px;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      border-radius: 50%;
+    }
+  
+    .info {
+      padding: 0 20px;
+
+      .position {
+        margin: 0%;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        color: #202020;
+      }
+
+      .nameBox {
+        position: relative;
+        padding: 18px 0;
+
+        .name {
+          margin-right: 26px;
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 20px;
+          color: #202020;
+        }
+
+        .locationIcon {
+          position: relative;
+          top: -1.2px;
+          box-sizing: content-box;
+        }
+
+        .city {
+          margin-left: 10px;
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 17px;
+          color: #202020;
+        }
+      }
+
+      .experience {
+        margin: 0;
+        padding: 0 0 8px;
+        min-height: 40px;
+
+        .experienceItem {
+          list-style-type: none;
+          margin-bottom: 12px;
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 17px;
+          color: #5B5B5B;
+        }
+      }
+
+      .updateDeadline {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        color: #A6A6A6;
+      }
+
+      .statusOn,
+      .statusOff {
+        position: relative;
+        padding-left: 20px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+
+        .markerOn,
+        .markerOff {
+          position: relative;
+          top: 1.2px;
+          display: inline-block;
+          width: 12px;
+          height: 12px;
+          margin-right: 4px;
+          border-radius: 50%;
+        }
+      }
+
+      .statusOn {
+        color: #4CAF50;
+      }
+
+      .statusOff {
+        color: #F42C3C;
+      }
+
+      .markerOn {
+        background: #4CAF50;
+      }
+
+      .markerOff {
+        background: #F42C3C;
+      }
+    }
+  }
+
+  .controlBox {
+    position: relative;
+
+    .button {
+      padding: 12px;
+      margin-left: 12px;
+      border: 0.5px solid #EAEAEA;
+      border-radius: 8px;
+      box-sizing: content-box;
+    }
+
+    .button:hover {
+      cursor: pointer;
+    }
+
+    .menu {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 20px;
+      height: 94px;
+      top: -5px;
+      left: -105px;
+      border: 0.5px solid #EAEAEA;
+      box-sizing: border-box;
+      border-radius: 12px;
+      background-color: #FFFFFF;
+
+      .menuButton {
+        border: none;
+        background: none;
+        padding: 0;
+        margin-bottom: 20px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: #1E1E1E;
+      }
+
+      .menuButton:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .candidate {
+    .infoBox {
+      .photo {
+        width: 150px;
+        height: 130px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .candidate {
+    position: relative;
+    padding-bottom: 50px;
+
+    .infoBox {
+      width: 100%;
+
+      .photo {
+        width: 90px;
+        height: 70px;
+      }
+
+      .info {
+        width: 100%;
+        padding-right: 0;
+      }
+
+      .nameBox {
+        display: flex;
+        flex-direction: column;
+
+        .locationBox {
+          padding-top: 6px;
+        }
+      }
+
+      .experience {
+        position: relative;
+        left: -90px;
+        width: 123%;
+      }
+
+      .updateDeadline {
+        position: relative;
+        bottom: -30px;
+        left: -90px;
+      }
+
+      .statusBox {
+        position: relative;
+        left: -265px;
+      }
+    }
+
+    .controlBox {
+      position: absolute;
+      bottom: 5px;
+      right: 5px;
+    }
+  }
+}

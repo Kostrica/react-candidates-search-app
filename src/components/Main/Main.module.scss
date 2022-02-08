@@ -1,0 +1,127 @@
+.main {
+  padding: 70px 100px;
+
+  .title {
+    margin: 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #202020;
+
+    .number {
+      color: #0096C7;
+    }
+  }
+
+  .line {
+    width: 170px;
+    border-bottom: 1px solid #000046;
+    margin: 16px 0px;
+  }
+
+  .searchInfoBox {
+    margin-bottom: 44px;
+
+    .searchComment {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      color: #5B5B5B;
+    }
+
+    .periodSelectionBox {
+      display: inline-flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .periodSelection {
+        display: inline-block;
+        width: 145px;
+        height: max-content;
+        margin: 0 20px;
+        border: none;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: left;
+        color: #0096C7;
+      }
+
+      .periodSelection:focus {
+        outline:none
+      }
+
+      .filterIcon {
+        display: none;
+        height: 48px;
+        width: 48px;
+        padding: 12px;
+        background-color: #F4F6FC;
+        border-radius: 8px;
+      }
+
+      .filterIcon:hover {
+        cursor: pointer;
+      }
+
+      .closeIcon {
+        display: none;
+        margin: 4px;
+        height: 40px;
+        width: 40px;
+        padding: 12px;
+        box-shadow: 0px 0px 8px rgba(13, 74, 145, 0.15);
+        border-radius: 8px;
+      }
+
+      .closeIcon:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .mainContainer {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .main {
+    padding: 70px 18%;
+
+    .searchInfoBox {
+      .periodSelectionBox {
+        width: 100%;
+        margin-top: 10px;
+
+        .periodSelection {
+          display: block;
+          margin: 0;
+          padding: 0;
+        }
+
+        .filterIcon {
+          display: block;
+        }
+
+        .closeIcon {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main {
+    padding: 30px 20px;
+  }
+}

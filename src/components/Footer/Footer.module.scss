@@ -1,0 +1,141 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 0 7%;
+  background-image: url("../../assets/img/Frame\ 893.png");
+  background-size: 100% 100%;
+  max-width: 1440px;
+  box-sizing: border-box;
+
+  .menuFooter {
+    display: flex;
+    flex-direction: row;
+    padding: 67px 0 52px 3%;
+
+    .menu {
+      display: flex;
+      flex-direction: column;
+      padding-left: 19%;
+
+      .title {
+        margin-bottom: 20px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+      }
+
+      .link {
+        margin-bottom: 15px;
+        text-decoration: none;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+      }
+    }
+
+    .socialNetworks {
+      display: flex;
+      flex-direction: row;
+      padding-top: 20px;
+      padding-left: 21%;
+      justify-content: flex-start;
+
+      .icon {
+        margin-right: 20px;
+      }
+
+      .icon:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .bottomFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0 42px;
+    border-top: 0.5px solid #EAEAEA;
+    color: white;
+
+    .text,
+    .textRights {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+
+    .separator,
+    .separatorSecond {
+      height: 17px;
+      margin: 0 30px;
+      border-left: 1px solid #FFFFFF;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .footer {
+    padding: 0 4%;
+  
+    .menuFooter {
+      padding: 67px 0 52px;
+  
+      .menu {
+        padding-left: 13%;
+      }
+
+      .socialNetworks {
+        padding-left: 13%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .footer {
+    padding: 0 7%;
+  
+    .menuFooter {
+      flex-direction: column;
+      padding: 67px 0 52px;
+  
+      .menu {
+        justify-content: center;
+        align-items: center;
+        padding: 0 0 40px 0;
+      }
+
+      .socialNetworks {
+        justify-content: center;
+        padding-left: 0%;
+      }
+    }
+
+    .bottomFooter {
+      position: relative;
+      padding-bottom: 100px;
+
+      .textRights{
+        position: absolute;
+        top: 60px;
+        left: calc(50% - 84px);
+      }
+
+      .separatorSecond{
+        display: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,117 @@
+.languagesFilterContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 25px 10px;
+  margin-bottom: 15px;
+  background-color: #FDFDFF;
+
+  .title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #202020;
+  }
+
+  .line {
+    width: 323px;
+    border: 0.5px solid #EAEAEA;
+    margin: 12px 0;
+  }
+
+  .checkboxWraper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+    .flag {
+      margin-right: 8px;
+    }
+
+    [type="checkbox"]+span:not(.lever) {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+      color: #202020;
+    }
+
+    [type="checkbox"].filled-in:not(:checked)+span:not(.lever):after {
+      border: 1px solid #FBC53C;
+    }
+
+    [type="checkbox"].filled-in:checked+span:not(.lever):after {
+      border: 1px solid #FBC53C;
+      background-color: #FBC53C;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .wraper {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .button {
+      margin: 0 0 0 20px;
+      background: none;
+      border: none;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 24px;
+      color: #000046;
+      text-align: center;
+      transform: rotate(90deg);
+    }
+  }
+
+  .menuHiden {
+    display: none;
+  }
+
+  .menuShow {
+    display: flex;
+    flex-direction: column;
+    padding: 0 44px;
+
+    .radioWraper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 15px;
+
+      [type="radio"]:not(:checked)+span,
+      [type="radio"]:checked+span {
+        padding-left: 25px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        color: #555556;
+      }
+
+      [type="radio"]:checked+span:after,
+      [type="radio"].with-gap:checked+span:after {
+        background-color: #FBC53C;
+      }
+
+      [type="radio"]:checked+span:after,
+      [type="radio"].with-gap:checked+span:before,
+      [type="radio"].with-gap:checked+span:after {
+        border: 2px solid #FBC53C;
+      }
+
+      p {
+        margin: 0;
+      }
+    }
+  }
+}

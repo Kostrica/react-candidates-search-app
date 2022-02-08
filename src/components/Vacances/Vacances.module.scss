@@ -1,0 +1,40 @@
+.vacancesShow,
+.vacancesHiden {
+  width: 67%;
+
+  .collection {
+    margin: 0;
+    padding: 0;
+
+    .collectionItem {
+      list-style-type: none;
+      margin-bottom: 40px;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .vacancesShow,
+  .vacancesHiden {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .vacancesShow {
+    display: flex;
+  }
+
+  .vacancesHiden {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .vacances {
+    .collection {
+      width: 100%;
+    }
+  }
+}

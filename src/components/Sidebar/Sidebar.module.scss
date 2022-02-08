@@ -1,0 +1,39 @@
+.sidebarBoxShow,
+.sidebarBoxHiden {
+  .sidebar {
+    width: 410px;
+    padding-left: 40px;
+
+    .title {
+      margin-bottom: 15px;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 32px;
+      color: #202020;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .sidebarBoxShow,
+  .sidebarBoxHiden {
+    justify-content: center;
+    width: 100%;
+    background-color: #FFFFFF;
+
+    .sidebar {
+      width: 370px;
+      padding: 0;
+    }
+  }
+
+  .sidebarBoxShow {
+    display: flex;
+  }
+
+  .sidebarBoxHiden {
+    display: none;
+  }
+}
