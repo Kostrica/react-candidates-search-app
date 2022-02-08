@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/react-candidates-search-app/static/css/main.d8b9ac6f.css",
+    "main.js": "/react-candidates-search-app/static/js/main.766f691c.js",
+    "static/media/Frame 893.png": "/react-candidates-search-app/static/media/Frame 893.fed816a4022e3c27816b.png",
+    "static/media/instagram-svgrepo-com.svg": "/react-candidates-search-app/static/media/instagram-svgrepo-com.31ac48481c14ed1a71c166c5df18821b.svg",
+    "static/media/twitter-svgrepo-com.svg": "/react-candidates-search-app/static/media/twitter-svgrepo-com.01d8a35fc5af983396c9f907f27d1e74.svg",
+    "static/media/student-bold-svgrepo-com.svg": "/react-candidates-search-app/static/media/student-bold-svgrepo-com.2d9f0a5ebcd9c3b53921f902d4a2c0bd.svg",
+    "static/media/united-kingdom.svg": "/react-candidates-search-app/static/media/united-kingdom.dba73aea2ccc27dab40f1bf6546d4888.svg",
+    "static/media/location-point-svgrepo-black-com.svg": "/react-candidates-search-app/static/media/location-point-svgrepo-black-com.e7fe172bbcd49c76e3e2b0e07727f5e5.svg",
+    "static/media/location-point-svgrepo-com.svg": "/react-candidates-search-app/static/media/location-point-svgrepo-com.3bd148d3afd825f3b589c3b7156652f1.svg",
+    "static/media/filter-options-preferences-settings-svgrepo-com.svg": "/react-candidates-search-app/static/media/filter-options-preferences-settings-svgrepo-com.b1ba141788f6187d7e67f365fe65b518.svg",
+    "static/media/globe-svgrepo-com.svg": "/react-candidates-search-app/static/media/globe-svgrepo-com.889fea240a024181614b120677a0e3de.svg",
+    "static/media/linkedin-svgrepo-com.svg": "/react-candidates-search-app/static/media/linkedin-svgrepo-com.6e0056a866c78e45cafa67b497391219.svg",
+    "static/media/heart-svgrepo-com.svg": "/react-candidates-search-app/static/media/heart-svgrepo-com.7874083b8cd522ce9c7a45478fd3ce8c.svg",
+    "static/media/youtube-svgrepo-com.svg": "/react-candidates-search-app/static/media/youtube-svgrepo-com.1dd6033117d5951242b9f804319b4a72.svg",
+    "static/media/facebook-svgrepo-com.svg": "/react-candidates-search-app/static/media/facebook-svgrepo-com.5d73d45f2b00cf247dfcedc73c25523b.svg",
+    "static/media/whatsapp-whats-app-svgrepo-com.svg": "/react-candidates-search-app/static/media/whatsapp-whats-app-svgrepo-com.1316ee6b9b94303f13a20685510f6b3e.svg",
+    "static/media/close-svgrepo-com.svg": "/react-candidates-search-app/static/media/close-svgrepo-com.aa2c78f5ad07e27bf32cb5456a0ba2c9.svg",
+    "static/media/heart-svgrepo-active-com.svg": "/react-candidates-search-app/static/media/heart-svgrepo-active-com.1ccefc72ebc38f3d87c41f6185cf84f3.svg",
+    "static/media/russia.svg": "/react-candidates-search-app/static/media/russia.f6029e7d440a8575a383757047b64845.svg",
+    "static/media/search-svgrepo-com.svg": "/react-candidates-search-app/static/media/search-svgrepo-com.9c887bee723e6ed05cabd5407377a325.svg",
+    "index.html": "/react-candidates-search-app/index.html",
+    "static/media/menu-vertical-svgrepo-com.svg": "/react-candidates-search-app/static/media/menu-vertical-svgrepo-com.4c4a35a8eade06aaf6ca9ddfcb25e036.svg",
+    "static/media/user-svgrepo-com.svg": "/react-candidates-search-app/static/media/user-svgrepo-com.9edba96f23eba20809711cb702b63aae.svg",
+    "static/media/photo-2-svgrepo-com.svg": "/react-candidates-search-app/static/media/photo-2-svgrepo-com.3ed10780c4d49adbb5022bcc6598ed5f.svg",
+    "static/media/ukraine.svg": "/react-candidates-search-app/static/media/ukraine.10c2bb8d2ba468d4180b9f17b14b04c0.svg",
+    "static/media/germany.svg": "/react-candidates-search-app/static/media/germany.35808f9732015c73852f72383526991f.svg",
+    "static/media/Flag_of_Spain_(Civil).svg": "/react-candidates-search-app/static/media/Flag_of_Spain_(Civil).fa01e6861fe1d0ceb5bb00b4999b7c17.svg",
+    "static/media/poland.svg": "/react-candidates-search-app/static/media/poland.3b4ade1bb6f6960152e8e1e327fb1372.svg",
+    "main.d8b9ac6f.css.map": "/react-candidates-search-app/static/css/main.d8b9ac6f.css.map",
+    "main.766f691c.js.map": "/react-candidates-search-app/static/js/main.766f691c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8b9ac6f.css",
+    "static/js/main.766f691c.js"
+  ]
+}
