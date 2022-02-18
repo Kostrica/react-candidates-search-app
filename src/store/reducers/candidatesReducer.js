@@ -1,9 +1,10 @@
 import { SET_CANDIDATES, SET_SELECTED_PAGE, SET_CHOICE_WITH_PHOTO } from '../actions/actionTypes';
+import { initialListOfCandidates } from '../initialListOfCandidates';
 
 const initialState = {
-  listOfCandidates: [],
-  totalCandidates: null,
-  pageCount: null,
+  listOfCandidates: initialListOfCandidates,
+  totalCandidates: 10,
+  pageCount: 1,
   openedPage: 0,
   selectedPage: 1,
   choiceWithPhoto: null,
