@@ -140,7 +140,7 @@ export const Candidate = ({ candidate }) => {
             </span>
           </div>
           <ul className={styles.experience}>
-            {workexperience[0]
+            {workexperience.length
             ? workexperience.map(({
                 id,
                 company_name,

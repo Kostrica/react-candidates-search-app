@@ -218,7 +218,7 @@ export const initialListOfCandidates = [
     "skype": null,
     "email_com": null,
     "add_num": [],
-    "photo": "http://135.181.30.244:27007/media/users/682-6829443_blue-tigers-hd-png-download.png",
+    "photo": null,
     "desiredposition": [
         {
             "id": 892,
